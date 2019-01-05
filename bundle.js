@@ -20721,11 +20721,42 @@ const renderBloom = createRenderBloom(regl, canvas)
 const renderBlur = createRenderBlur(regl)
 
 const tracks = [
-  {title: 'Typist ft. Noah Frank', artist: 'Ruslan Pantaev', path: 'src/audio/typist.mp3'},
-  {title: 'Another New World', artist: 'Punch Brothers', path: 'src/audio/another-new-world.mp3'},
-  {title: 'The Wilder Sun', artist: 'Jon Hopkins', path: 'src/audio/the-wilder-sun.mp3'},
-  {title: 'Lost It To Trying', artist: 'Son Lux', path: 'src/audio/lost-it-to-trying.mp3'},
-  {title: 'Adagio for Strings', artist: 'Samuel Barber', path: 'src/audio/adagio-for-strings.mp3'}
+  {title: 'Typist ft. Noah Frank', artist: 'Ruslan Pantaev', path: 'src/audio/01_typist.mp3'},
+  {title: 'Milei the Mouse', artist: 'Ruslan Pantaev', path: 'src/audio/02_milei_original.mp3'},
+  {title: 'Explor', artist: 'Ruslan Pantaev', path: 'src/audio/03_explor.mp3'},
+  {title: 'Gtr Init', artist: 'Ruslan Pantaev', path: 'src/audio/04_gtr_init.mp3'},
+  {title: 'Chase-Udh34r', artist: 'Ruslan Pantaev', path: 'src/audio/05_chase.mp3'},
+  {title: 'A185', artist: 'Ruslan Pantaev', path: 'src/audio/06_a185.mp3'},
+  {title: 'Orchs', artist: 'Ruslan Pantaev', path: 'src/audio/07_orchs.mp3'},
+  {title: 'A5 ft. Noah Frank', artist: 'Ruslan Pantaev', path: 'src/audio/08_a5Low.mp3'},
+  {title: 'Gtr Interlude 1', artist: 'Ruslan Pantaev', path: 'src/audio/09_gtr_1.mp3'},
+  {title: 'Startapper', artist: 'Ruslan Pantaev', path: 'src/audio/10_startapper.mp3'},
+  {title: 'ChucK Session 1', artist: 'Ruslan Pantaev', path: 'src/audio/11_chuck.mp3'},
+  {title: 'A16', artist: 'Ruslan Pantaev', path: 'src/audio/12_a16.mp3'},
+  {title: 'Jam Day ft. Erik Kramer', artist: 'Ruslan Pantaev', path: 'src/audio/13_jamday.mp3'},
+  {title: '808 Init', artist: 'Ruslan Pantaev', path: 'src/audio/14_808_init.mp3'},
+  {title: 'Bunny Industrial', artist: 'Ruslan Pantaev', path: 'src/audio/15_bunny_industrial.mp3'},
+  {title: 'Zero', artist: 'Ruslan Pantaev', path: 'src/audio/16_0.mp3'},
+  {title: 'No Sea Aes On', artist: 'Ruslan Pantaev', path: 'src/audio/17_no_sea_aes_on_71.mp3'},
+  {title: 'Talk', artist: 'Ruslan Pantaev', path: 'src/audio/18_talk.mp3'},
+  {title: 'Lurking Dove', artist: 'Ruslan Pantaev', path: 'src/audio/19_lurking_dove.mp3'},
+  {title: 'A20', artist: 'Ruslan Pantaev', path: 'src/audio/20_a20.mp3'},
+  {title: 'Tp & Ml Remix', artist: 'Ruslan Pantaev & Tristan Pollack', path: 'src/audio/21_Tp_&_ML_remix.mp3'},
+  {title: 'A15', artist: 'Ruslan Pantaev', path: 'src/audio/22_a15.mp3'},
+  {title: 'Green River Remix', artist: 'Ruslan Pantaev', path: 'src/audio/23_green_river_remix.mp3'},
+  {title: 'Milei the Mouse Remix', artist: 'Ruslan Pantaev', path: 'src/audio/24_milei_remix.mp3'},
+  {title: 'Day Volve', artist: 'Ruslan Pantaev', path: 'src/audio/25_day_volve.mp3'},
+  {title: 'Gtr Cave', artist: 'Ruslan Pantaev', path: 'src/audio/26_gtr_cave.mp3'},
+  {title: 'Christmas in Copenhagen', artist: 'Ruslan Pantaev & Ricky Petraglia', path: 'src/audio/27_Ricky.mp3'},
+  {title: 'Gtr Interlude 2', artist: 'Ruslan Pantaev', path: 'src/audio/28_gtr_2.mp3'},
+  {title: 'One in Two', artist: 'Ruslan Pantaev', path: 'src/audio/29_one_in_two.mp3'},
+  {title: 'Ai 4 Tensor Flow', artist: 'Ruslan Pantaev', path: 'src/audio/30_ai_4.mp3'},
+  {title: 'A9 Ambient', artist: 'Ruslan Pantaev', path: 'src/audio/31_a9.mp3'},
+  {title: 'A10 Ambient', artist: 'Ruslan Pantaev', path: 'src/audio/32_a10.mp3'},
+  {title: 'A11 Dedicated to You Ambient', artist: 'Ruslan Pantaev', path: 'src/audio/33_a11.mp3'},
+  {title: 'A12 Ambient', artist: 'Ruslan Pantaev', path: 'src/audio/34_a12.mp3'},
+  {title: 'ChucK Session 2', artist: 'Ruslan Pantaev', path: 'src/audio/35_chuck_2.mp3'},
+  {title: 'Transmission 783-1', artist: 'Ruslan Pantaev', path: 'src/audio/36_transmission.mp3'}
 ]
 
 const audio = createPlayer(tracks[0].path)
