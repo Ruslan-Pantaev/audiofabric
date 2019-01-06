@@ -21015,10 +21015,10 @@ function startLoop () {
     })
     renderToBlurredFBO(() => {
       if (settings.motionBlur) {
-        renderColoredQuad({ color: [0.18, 0.18, 0.18, settings.motionBlurAmount] })
+        renderColoredQuad({ color: [17, 5, 0, settings.motionBlurAmount] })
       } else {
         regl.clear({
-          color: [0.18, 0.18, 0.18, 1],
+          color: [17, 5, 0, 5],
           depth: 1
         })
       }
